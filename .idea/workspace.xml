@@ -140,7 +140,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538673508582" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538673905801" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -194,6 +194,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FibonacciSeriesTest.fibonacciSeriesNthNumberForInvalidInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FibonacciSeries" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FibonacciSeriesTest" />
+      <option name="METHOD_NAME" value="fibonacciSeriesNthNumberForInvalidInput" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FibonacciSeriesTest.fibonacciSeriesNthNumberForThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FibonacciSeries" />
       <option name="PACKAGE_NAME" value="" />
@@ -204,30 +214,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciSeriesTest.fibonacciSeriesNthNumberForTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FibonacciSeries" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FibonacciSeriesTest" />
-      <option name="METHOD_NAME" value="fibonacciSeriesNthNumberForTwo" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.FibonacciSeriesTest.fibonacciSeriesNthNumberForTwo" />
       <item itemvalue="JUnit.FibonacciSeriesTest.fibonacciSeriesNthNumberForThree" />
       <item itemvalue="JUnit.FibonacciSeriesTest" />
       <item itemvalue="JUnit.FibonacciSeriesTest.fibonacciSeriesNthNumberForFive" />
       <item itemvalue="JUnit.FibonacciSeriesTest.fibonacciSeriesNthNumberForAnyNumber" />
+      <item itemvalue="JUnit.FibonacciSeriesTest.fibonacciSeriesNthNumberForInvalidInput" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.FibonacciSeriesTest" />
+        <item itemvalue="JUnit.FibonacciSeriesTest.fibonacciSeriesNthNumberForInvalidInput" />
         <item itemvalue="JUnit.FibonacciSeriesTest.fibonacciSeriesNthNumberForAnyNumber" />
         <item itemvalue="JUnit.FibonacciSeriesTest.fibonacciSeriesNthNumberForFive" />
         <item itemvalue="JUnit.FibonacciSeriesTest.fibonacciSeriesNthNumberForThree" />
-        <item itemvalue="JUnit.FibonacciSeriesTest.fibonacciSeriesNthNumberForTwo" />
       </list>
     </recent_temporary>
   </component>

@@ -26,4 +26,9 @@ public class FibonacciSeriesTest {
         Assert.assertEquals(55,fibonacciSeries.getNthNumber(10));
     }
 
+    @Test
+    public void fibonacciSeriesNthNumberForInvalidInput(){
+        FibonacciSeries fibonacciSeries = new FibonacciSeries();
+        Assert.assertEquals(-1,fibonacciSeries.getNthNumber(0));
+    }
 }
