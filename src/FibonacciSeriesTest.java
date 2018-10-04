@@ -7,9 +7,17 @@ public class FibonacciSeriesTest {
         FibonacciSeries fibonacciSeries = new FibonacciSeries();
         Assert.assertEquals(1,fibonacciSeries.getNthNumber(1));
     }
+
     @Test
     public void fibonacciSeriesNthNumberForTwo(){
         FibonacciSeries fibonacciSeries = new FibonacciSeries();
         Assert.assertEquals(1,fibonacciSeries.getNthNumber(2));
     }
+
+    @Test
+    public void fibonacciSeriesNthNumberForThree(){
+        FibonacciSeries fibonacciSeries = new FibonacciSeries();
+        Assert.assertEquals(2,fibonacciSeries.getNthNumber(3));
+    }
+
 }
