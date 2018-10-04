@@ -20,4 +20,10 @@ public class FibonacciSeriesTest {
         Assert.assertEquals(2,fibonacciSeries.getNthNumber(3));
     }
 
+    @Test
+    public void fibonacciSeriesNthNumberForAnyNumber(){
+        FibonacciSeries fibonacciSeries = new FibonacciSeries();
+        Assert.assertEquals(55,fibonacciSeries.getNthNumber(10));
+    }
+
 }

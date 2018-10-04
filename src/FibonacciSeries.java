@@ -5,15 +5,16 @@ public class FibonacciSeries {
         }
 
         int previousNumber=1;
-        int nextNumber=1;
+        int currentNumber=1;
 
         for(int i=1;i<number-1;i++){
-            int temp = nextNumber;
+            int nextNumber;
 
-            nextNumber      = nextNumber+previousNumber;
-            previousNumber  = temp;
+            nextNumber      = currentNumber+previousNumber;
+            previousNumber  = currentNumber;
+            currentNumber   = nextNumber;
         }
 
-        return nextNumber;
+        return currentNumber;
     }
 }
